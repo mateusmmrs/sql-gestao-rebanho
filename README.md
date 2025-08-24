@@ -1,6 +1,18 @@
-# SQL para Gestão de Rebanho
+<h1 align="center">
+  SQL para Gestão de Rebanho
+</h1>
 
-Banco PostgreSQL com tabelas de gestão pecuária e 20 queries estratégicas que resolvem problemas reais de uma operação de corte.
+<p align="center">
+  <em>Banco de dados relacional e queries analíticas para inteligência pecuária</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PostgreSQL-DB-336791?logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-Queries-4479A1?logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3.14-3776AB?logo=python&logoColor=white" />
+</p>
+
+---
 
 A ideia surgiu de algo que sempre me incomodou: a maioria das fazendas ainda usa planilha Excel (ou pior, caderno) pra controlar o rebanho. Modelei o banco de dados que eu gostaria que existisse — e escrevi as queries que um gerente de fazenda realmente precisaria no dia a dia.
 
@@ -98,6 +110,16 @@ Organizei por área de negócio. Cada query tem um comentário explicando **por 
 - Views materializadas (`CREATE VIEW`)
 - Aggregações condicionais
 - Subqueries correlacionadas
+
+---
+
+## Stack Tecnológica
+
+| Tecnologia | Aplicação |
+|-----------|-----------|
+| PostgreSQL | Sistema de Gerenciamento de Banco de Dados Relacional |
+| DDL / SQL | Modelagem de dados, schemas e queries analíticas (CTEs, Window Functions) |
+| Python 3.14 | Geração de dados de teste coerentes com regras de negócio zootécnicas |
 
 ---
 
